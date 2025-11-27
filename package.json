@@ -1,0 +1,16 @@
+{
+  "name": "dev-accelerator-plugin",
+  "version": "1.0.0",
+  "description": "Dev Accelerator plugin for code quality, testing, and developer productivity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "claude-code",
+    "plugin"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {}
+}
