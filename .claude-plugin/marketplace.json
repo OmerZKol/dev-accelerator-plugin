@@ -1,7 +1,6 @@
 {
-  "name": "dev-marketplace",
-  "owner": "Omer",
   "name": "Omer Marketplace",
+  "owner": "Omer",
   "plugins": [
     {
       "name": "dev-accelerator",
