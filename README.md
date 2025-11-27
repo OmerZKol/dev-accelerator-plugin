@@ -5,6 +5,19 @@
 
 NOTE: 3 of the 5 components have been tested and verified to work. Those 3 are commands, agents and skills.
 
+## Installation and usage
+### Installation option 1:
+1. In claude code terminal, run: `/plugins`
+2. In the plugins window, select "add marketplace"
+3. Put the github repo link: `https://github.com/OmerZKol/dev-accelerator-plugin.git`
+4. After installation, press escape, and select "browse and install plugins"
+5. Find "dev-accelerator" and install it
+6. Restart claude code
+### Installation option 2:
+1. Use the files sent over to you, and place them in your local claude directory under `.claude/plugins/dev-accelerator`
+2. Restart claude code
+3. Optionally, you can take just the plugin (plugin/dev-accelerator) itself from this repository, and place it in your local claude directory under `.claude/plugins/dev-accelerator`
+
 ## Architecture
 
 This plugin implements all 5 core Claude Code components working together:
@@ -69,30 +82,7 @@ Comprehensive PR review:
 - Provides real-time feedback
 
 ---
-
-## Installation & Usage
-
-### Prerequisites
-
-```bash
-# Required
-- Claude Code (^1.0.0)
-- Node.js (v14+)
-
-# Optional (for enhanced features)
-- GitHub CLI (gh) for GitHub integration
-- ESLint for JavaScript linting
-- Pylint for Python linting
-```
-
-### Installation
-
-1. move the code in the folder into your local .claude directory
-
-2. **Enable in Claude Code**
-   - Restart Claude Code
-   - Plugins should be automatically loaded
-   - Check with `/plugins` command
+## Getting Started
 
 ### Quick Start
 
