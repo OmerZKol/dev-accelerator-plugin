@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "dev-accelerator",
-      "source": "./dev-accelerator",
+      "source": "./plugin/dev-accelerator",
       "description": "A plugin to accelerate development tasks."
     }
   ]
