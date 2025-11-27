@@ -1,0 +1,12 @@
+{
+  "name": "dev-marketplace",
+  "owner": "Omer",
+  "name": "Omer Marketplace",
+  "plugins": [
+    {
+      "name": "dev-accelerator",
+      "path": "./dev-accelerator-plugin",
+      "description": "A plugin to accelerate development tasks."
+    }
+  ]
+}
