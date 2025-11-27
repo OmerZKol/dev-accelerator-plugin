@@ -2,48 +2,5 @@
   "name": "dev-accelerator",
   "version": "1.0.0",
   "description": "AI-powered development accelerator for code quality, testing, and productivity",
-  "author": "Omer",
-  "repository": "",
-  "license": "MIT",
-  "keywords": ["productivity", "testing", "code-review", "automation", "quality"],
-  "commands": {
-    "smart-review": {
-      "description": "Comprehensive code review with quality checks and suggestions",
-      "prompt": "commands/smart-review.md"
-    },
-    "gen-tests": {
-      "description": "Generate comprehensive test cases for selected code",
-      "prompt": "commands/gen-tests.md"
-    }
-  },
-  "agents": {
-    "test-suite-generator": {
-      "description": "Autonomous test generation agent that creates comprehensive test suites",
-      "prompt": "agents/test-suite-generator.md"
-    },
-    "pr-reviewer": {
-      "description": "Pull request analysis and review automation agent",
-      "prompt": "agents/pr-reviewer.md"
-    }
-  },
-  "skills": {
-    "safe-refactoring": {
-      "description": "Refactoring workflow with safety checks and test verification",
-      "prompt": "skills/safe-refactoring/SKILL.md"
-    }
-  },
-  "hooks": {
-    "onPromptSubmit": {
-      "script": "hooks/on-prompt-submit.js"
-    },
-    "onFileChange": {
-      "script": "hooks/on-file-change.js"
-    }
-  },
-  "mcpServers": {
-    "github-integration": {
-      "command": "node",
-      "args": ["mcp-servers/github-server.js"]
-    }
-  }
+  "author": {"name": "Omer"}
 }
